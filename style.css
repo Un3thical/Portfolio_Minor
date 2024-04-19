@@ -1,0 +1,121 @@
+div{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+.nav {
+    background-color: #9DB4C0;
+    border: none;
+    height: 65.8px;
+    width: 177.8px;
+    color: white;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 800;
+    font-variant: small-caps;
+    font-family: sans-serif;
+}
+
+.top {
+    background-color: #253237;
+    display: inline-block;
+    width: 100%;
+}
+
+.home {
+    width: 100%;
+}
+
+.intro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.about {
+    background-color: #9DB4C0;
+}
+
+.about_h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    font-variant: small-caps;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 30px;
+}
+
+.about_p {
+    text-align: center;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding: 50px 200px 100px 200px;
+    font-size: 19.5px;
+    color: white;
+}
+
+.project_h2 {
+    color: #C2DFE3;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    font-variant: small-caps;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+
+.project_li {
+    font-weight: 500;
+    font-family: sans-serif;
+    padding: 50px 30px 50px 100px;
+    font-size: 22px;
+    color: #C2DFE3;
+}
+
+
+.circle {
+    width: 193.9px;
+    height: 193.9px;
+    border-radius: 50%;
+    background: conic-gradient(#002688 0% 65%,
+            #2ff3e0 25% 100%);
+    position: relative;
+}
+
+.inner-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #253237;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.skill_div {
+    display: inline-block; margin: 10px 110px 50px 140px;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 600;
+}
+.exp_li{
+    font-weight: 500;
+    font-family: sans-serif;
+    padding: 0px 30px 10px 100px;
+    font-size: 22px;
+    color: #C2DFE3;
+}
